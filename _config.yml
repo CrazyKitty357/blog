@@ -1,2 +1,3 @@
 title: CrazyKitty Blog
+baseurl: "/blog"
 plugins: [jekyll-feed]
