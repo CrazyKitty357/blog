@@ -1,0 +1,21 @@
+--- 
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: black;
+    color: white
+}
+
+a {
+    color: #499eff
+}
+
+h1, p {
+    color: white
+}
+
+div.wrapper {
+    width: 500px
+}
