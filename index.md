@@ -2,7 +2,9 @@
 layout: default
 title: Home
 ---
-# Hello
+# Hello, welcome to my blog!
+
+[rss](feed.xml)
 
 <ul>
     {% for posts in site.posts %}
