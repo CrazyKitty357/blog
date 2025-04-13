@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: DepartureMono-Regular;
+    src: url(https://departuremono.com/assets/DepartureMono-Regular.otf);
+}
+
 div.wrapper {
     margin: 0 auto;
     width: fit-content;
@@ -10,13 +15,27 @@ div.wrapper {
 
 body {
     background-color: black;
-    color: white
+    color: white;
+    font-family: Departure Mono,monospace;
+}
+
+code {
+    font-family: Departure Mono,monospace;
 }
 
 a {
     color: #499eff
 }
 
-h1, p {
+h1, h2, h3, h4, p, strong {
     color: white
+}
+
+div.highlight {
+    background-color: black;
+}
+
+pre.highlight {
+    background-color: white;
+    border-color: black;
 }
