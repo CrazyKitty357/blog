@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+div.wrapper {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 body {
     background-color: black;
     color: white
@@ -14,8 +19,4 @@ a {
 
 h1, p {
     color: white
-}
-
-div.wrapper {
-    width: 500px
 }
