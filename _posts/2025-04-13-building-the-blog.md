@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Building the blog"
+date: 2025-04-13
 author: "crazykitty"
 tags: ["devlog", "webdev"]
 ---
