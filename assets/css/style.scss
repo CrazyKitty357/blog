@@ -14,7 +14,7 @@ div.wrapper {
 }
 
 body {
-    background-color: black;
+    background-color: #1d1e18;
     color: white;
     font-family: Departure Mono,monospace;
 }
@@ -24,7 +24,11 @@ code {
 }
 
 a {
-    color: #499eff
+    color: #ffd2fc
+}
+
+a:hover {
+    color: #aa8da6
 }
 
 h1, h2, h3, h4, p, strong {
@@ -32,10 +36,10 @@ h1, h2, h3, h4, p, strong {
 }
 
 div.highlight {
-    background-color: black;
+    background-color: #1d1e18;
 }
 
 pre.highlight {
     background-color: white;
-    border-color: black;
+    border-color: #1d1e18;
 }

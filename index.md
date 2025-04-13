@@ -4,7 +4,7 @@ title: Home
 ---
 # Hello, welcome to my blog!
 
-[rss](feed.xml) [twitch](https://twitch.tv/cr4zyk1tty) [bsky](https://bsky.app/profile/crazykitty357.github.io)
+[[rss](feed.xml)] [[twitch](https://twitch.tv/cr4zyk1tty)] [[bsky](https://bsky.app/profile/crazykitty357.github.io)]
 
 ---
 <ul>
