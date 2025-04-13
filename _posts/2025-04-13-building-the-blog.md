@@ -3,7 +3,7 @@ title: "Building the blog"
 author: "crazykitty"
 tags: ["devlog", "webdev"]
 ---
-I really don't know how to write this all out off the top of my head without writing it in a fake FAQ format, afterall I am writing this article as I am actively coding the blog. **2025-04-13 at 2:14AM EDT**
+I really don't know how to write this all out off the top of my head without writing it in a fake FAQ format, afterall I am writing this article as I am actively coding the blog. **the faq section was written at 2025-04-13 at 2:14AM EDT**
 
 ## Why did you want a blog?
 it's pretty simple. I wanted to make one for a good while and I never really had an excuse to make it until the recent release of [Hacker News](https://news.colonq.computer).
