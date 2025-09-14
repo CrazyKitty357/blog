@@ -14,7 +14,7 @@ and a [greenheat](https://heat.prod.kr) [websocket api implementation in godot](
 ## what's the blog's patch notes?
 - changed css to be more consistent
     - was a custom color palette it's now [pear36](https://lospec.com/palette-list/pear36).
-    - you can view the css changes in the [test article]({{ site.baseurl }}/2025/04/12/test.html)
+    <a href="{{ site.baseurl }}/assets/img/posts/i-redesigned-the-blog/beforeafter.png"><img src="{{ site.baseurl }}/assets/img/posts/i-redesigned-the-blog/beforeafter.png" style="border: 3px solid #ff6b97;"/></a>
 - added gif on homepage
 - removed jekyll github pages blog default text
     - now replaced with the nav bar which was only seen on the blog homepage
