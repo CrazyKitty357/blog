@@ -2,15 +2,19 @@
 layout: default
 title: Home
 ---
-# Hello, welcome to my blog!
+<center>
+    <img 
+        src="{{ site.baseurl }}/assets/img/site-resources/ckbloghi.webp"
+        style="border: solid 3px #ffffeb;"
+    />
+</center>
 
-[[rss](feed.xml)] [[twitch](https://twitch.tv/cr4zyk1tty)] [[bsky](https://bsky.app/profile/crazykitty357.github.io)]
-
----
 <ul>
     {% for posts in site.posts %}
-        <li>
-        <a href="{{ site.baseurl }}{{ posts.url }}">{{ posts.title }}</a> - {{ posts.tags | join: ", " }} | {{ posts.date | date: "%Y-%m-%d" }}
-        </li>
+        {% unless posts.tags contains "hidden" %}
+            <li>
+            <a href="{{ site.baseurl }}{{ posts.url }}">{{ posts.title }}</a> - {{ posts.tags | join: ", " }} | {{ posts.date | date: "%m/%d/%Y" }}
+            </li>
+        {% endunless %}
     {% endfor %}
-<ul>
+</ul>

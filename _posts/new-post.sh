@@ -8,7 +8,7 @@ fi
 
 DATE=$(date +"%Y-%m-%d")
 AUTHOR="crazykitty"
-TAGS='["TAG", "DOUBLE TAG", "TRIPLE TAG"]'
+TAGS='[]'
 FILENAME="${DATE}-${TITLE// _/}.md"
 
 cat > "$FILENAME" <<EOF

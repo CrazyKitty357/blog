@@ -14,8 +14,8 @@ div.wrapper {
 }
 
 body {
-    background-color: #1d1e18;
-    color: white;
+    background-color: #272736;
+    color: #ffffeb;
     font-family: Departure Mono,monospace;
 }
 
@@ -24,22 +24,26 @@ code {
 }
 
 a {
-    color: #ffd2fc
+    color: #ff6b97
 }
 
 a:hover {
-    color: #aa8da6
+    color: #ffb5b5
 }
 
 h1, h2, h3, h4, p, strong {
-    color: white
-}
-
-div.highlight {
-    background-color: #1d1e18;
+    color: #ffffeb
 }
 
 pre.highlight {
-    background-color: white;
-    border-color: #1d1e18;
+    background-color: #3e2347;
+    border-color: #ffffeb;
+    border-size: 4px;
+    span.nt {
+        color: #bd4882;
+    };
+}
+
+code {
+    color: #ffffeb;
 }
