@@ -2,5 +2,3 @@ title: CrazyKitty/blog
 baseurl: "/blog"
 remote_theme: pages-themes/minimal@v0.2.0
 plugins: [jekyll-feed, jekyll-remote-theme]
-
-feed:
