@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: DepartureMono-Regular;
-    src: url(https://departuremono.com/assets/DepartureMono-Regular.otf);
+    src: url('{{ site.baseurl }}/assets/fonts/DepartureMono-Regular.otf') format("opentype");
 }
 
 div.wrapper {
@@ -16,11 +16,11 @@ div.wrapper {
 body {
     background-color: #272736;
     color: #ffffeb;
-    font-family: Departure Mono,monospace;
+    font-family: DepartureMono-Regular, monospace;
 }
 
 code {
-    font-family: Departure Mono,monospace;
+    font-family: DepartureMono-Regular, monospace;
 }
 
 a {
