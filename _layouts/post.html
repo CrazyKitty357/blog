@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<center>
+<img src={{page.thumbnail}}></img>
+</center>
+<br>
 <small>{{ page.date | date: "%B %-d %Y" }} | last edited: {{ page.edited | date: "%B %-d %Y" }}</small>
 <h1>{{ page.title }}</h1>
 <p class="view">by {{ page.author | default: site.author }}</p>

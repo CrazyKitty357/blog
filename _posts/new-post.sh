@@ -10,16 +10,18 @@ DATE=$(date +"%Y-%m-%d")
 AUTHOR="crazykitty"
 TAGS='[]'
 FILENAME="${DATE}-${TITLE// _/}.md"
+THUMB="/blog/assets/img/posts/covers/test.png"
 
 cat > "$FILENAME" <<EOF
 ---
 layout: post
 title: "$TITLE"
 date: "$DATE"
+thumbnail: "$THUMB"
 author: "$AUTHOR"
 tags: $TAGS
 ---
-## inital heading
+# inital heading
 The...
 EOF
 

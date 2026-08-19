@@ -4,7 +4,7 @@ title: Blog!
 ---
 <center>
     <img 
-        src="{{ site.baseurl }}/assets/img/site-resources/ckbloghi.webp"
+        src="{{ site.baseurl }}/assets/img/site-resources/ckbloghi.gif"
         style="border: solid 3px #ffffeb;"
     />
 </center>
